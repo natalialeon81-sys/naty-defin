@@ -1,133 +1,200 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IE 2026</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f7f1e7">
+  <meta name="description" content="Portafolio de Natalia León, La Raya Todo: ilustración, arte y experimentos de Imagen Escrita.">
+  <title>La Raya Todo — Portafolio de Imagen Escrita y más</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
-
-<!-- Inicio Body -->
-
 <body>
-
-    <!-- Sección principal -->
-    <header>
-        <h1>Portafolio IE 2026</h1>
-    </header>
-
-    <!-- Contenedor General -->
-    <div id="container">
-
-        <!-- Contenedor lado izquierdo - Parrafo y botón -->
-        <div class="intro">
-            <p>
-                Imagen escrita es una asignatura que se centra en la intersección entre diseño,
-                la programación y arte generativo. Utilizando p5.js como herramienta principal, el curso explora los
-                fundamentos de la programación creativa y su aplicación en el diseño visual interactivo.
-            </p>
-            <p>
-                A través del creative coding se hace énfasis en el pensamiento computacional como herramienta de diseño,
-                fomentando un enfoque innovador en la resolución de problemas visuales y la creación artística. La
-                integración de herramientas de IA busca ampliar las posibilidades creativas y técnicas, sirviendo como
-                complemento al proceso de diseño y programación
-            </p>
-
-
-            <a href="https://wiki.ead.pucv.cl/Sitio_Web_IE_-_Javiera_Ruiz" target="_blank">
-                <button>
-                    wiki del proyecto
-                </button>
-            </a>
-
-        </div>
-
-        <!-- Contenedor lado derecho -->
-        <div class="proyectos">
-            <h2>Mis proyectos p5js</h2>
-
-            <!-- Contenedor galería de proyectos -->
-            <div class="galeria">
-                <!-- tarjeta proyecto 1 -->
-                <div class="tarjeta">
-                    <a href="https://editor.p5js.org/jruiz-IE/full/_D3gtXvo_" target="_blank">
-                        <img src="assets/imagen1.png">
-                        </img>
-                        <h3>Tarea 1</h3>
-                    </a>
-                </div>
-
-                <!-- tarjeta proyecto 2 -->
-                <div class="tarjeta">
-                    <a href="">
-                        <img src="assets/imagen2.png">
-                        </img>
-                        <h3>Tarea 2</h3>
-                    </a>
-                </div>
-
-                <!-- tarjeta proyecto 3 -->
-                <div class="tarjeta">
-                    <a href="">
-                        <img src="assets/imagen2.png">
-                        </img>
-                        <h3>Tarea 3</h3>
-                    </a>
-                </div>
-
-                <!-- tarjeta proyecto 4 -->
-                <div class="tarjeta">
-                    <a href="">
-                        <img src="assets/imagen2.png">
-                        </img>
-                        <h3>Tarea 4</h3>
-                    </a>
-                </div>
-
-                <!-- tarjeta proyecto 5 -->
-                <div class="tarjeta">
-                    <a href="">
-                        <img src="assets/imagen2.png">
-                        </img>
-                        <h3>Tarea 5</h3>
-                    </a>
-                </div>
-
-                <!-- tarjeta proyecto 6 -->
-                <div class="tarjeta">
-                    <a href="">
-                        <img src="assets/imagen2.png">
-                        </img>
-                        <h3>Tarea 6</h3>
-                    </a>
-                </div>
-
-                <!-- tarjeta proyecto 7 -->
-                <div class="tarjeta">
-                    <a href="">
-                        <img src="assets/imagen2.png">
-                        </img>
-                        <h3>Tarea 7</h3>
-                    </a>
-                </div>
-                
-                <!-- tarjeta proyecto 8 -->
-                <div class="tarjeta">
-                    <a href="">
-                        <img src="assets/imagen2.png">
-                        </img>
-                        <h3>Tarea 8</h3>
-                    </a>
-                </div>
-
-            </div>
-
-        </div>
-
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="La Raya Todo, inicio">
+      <img src="assets/logo-la-raya-todo.jpg" alt="Logo La Raya Todo">
+    </a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-nav">☰</button>
+    <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
+      <a class="nav-link active" href="#inicio">Inicio</a>
+      <a class="nav-link" href="#proyectos">Proyectos</a>
+      <a class="nav-link" href="#ventas">Ventas</a>
+      <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+      <a class="nav-link" href="#contacto">Contacto</a>
+    </nav>
+    <div class="header-socials">
+      <a href="https://www.instagram.com/la.raya.todo/" target="_blank" rel="noopener noreferrer" aria-label="Instagram de La Raya Todo">◎</a>
+      <a href="https://github.com/natalialeon81-sys" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Natalia León">⌘</a>
     </div>
+  </header>
 
+  <main id="contenido">
+    <section class="hero section-frame" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">NATALIA LEÓN · ARTISTA Y DISEÑADORA</p>
+        <h1 id="hero-title">La Raya<br><span>Todo</span></h1>
+        <p class="hero-subtitle">PORTAFOLIO DE IMAGEN ESCRITA Y MÁS</p>
+        <a class="button button-primary" href="#proyectos">Ver proyectos <span aria-hidden="true">⟶</span></a>
+      </div>
+      <div class="hero-art" role="img" aria-label="Pintura de un unicornio y un león enfrentados en un paisaje fantástico">
+        <img src="assets/portada-unicornio-leon.jpg" alt="Unicornio y león en una pintura de colores intensos">
+        <span class="hero-sticker sticker-one" aria-hidden="true">★</span>
+        <span class="hero-sticker sticker-two" aria-hidden="true">✳</span>
+      </div>
+      <div class="hero-side-note" aria-hidden="true">ILUSTRACIÓN · EXPERIMENTO · IMAGINACIÓN</div>
+    </section>
+
+    <section class="projects-section section-frame" id="proyectos" aria-labelledby="projects-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">UN ARCHIVO EN MOVIMIENTO</p>
+          <h2 id="projects-title">Proyectos</h2>
+        </div>
+        <div class="project-filters" aria-label="Categorías de proyectos">
+          <button class="filter-button selected" data-filter="all">Todos</button>
+          <button class="filter-button" data-filter="imagen-escrita">Imagen Escrita</button>
+          <button class="filter-button" data-filter="ilustracion">Ilustración</button>
+        </div>
+      </div>
+
+      <div class="subsection-title">
+        <h3>Imagen Escrita</h3>
+        <p>Experimentos visuales realizados con código y formas generativas.</p>
+      </div>
+      <div class="project-grid digital-grid">
+        <article class="project-card" data-category="imagen-escrita">
+          <button class="artwork-button" data-full="assets/ie-templo-pop-miranda.png" data-title="Templo del Pop de Miranda" aria-label="Ampliar Templo del Pop de Miranda">
+            <img src="assets/ie-templo-pop-miranda.png" alt="Composición de rectángulos de colores suspendidos por líneas negras" loading="lazy">
+            <span class="image-open" aria-hidden="true">↗</span>
+          </button>
+          <div class="project-meta"><span>IE / 01</span><span class="category-tag">Geométrico</span></div>
+          <h4>Templo del Pop de Miranda</h4>
+          <p>Geometría, color y equilibrio en una composición de formas suspendidas.</p>
+        </article>
+        <article class="project-card" data-category="imagen-escrita">
+          <button class="artwork-button" data-full="assets/ie-ruido-visual.png" data-title="Ruido visual" aria-label="Ampliar Ruido visual">
+            <img src="assets/ie-ruido-visual.png" alt="Mosaico de pequeños píxeles amarillos, naranjas, fucsias, morados y azules" loading="lazy">
+            <span class="image-open" aria-hidden="true">↗</span>
+          </button>
+          <div class="project-meta"><span>IE / 02</span><span class="category-tag">Generativo</span></div>
+          <h4>Ruido visual</h4>
+          <p>Una trama cromática de fragmentos, saturación y caos digital.</p>
+        </article>
+        <article class="project-card" data-category="imagen-escrita">
+          <button class="artwork-button" data-full="assets/ie-arcoiris-liquido.png" data-title="Arcoíris líquido" aria-label="Ampliar Arcoíris líquido">
+            <img src="assets/ie-arcoiris-liquido.png" alt="Curvas de neón multicolores entrelazadas sobre fondo negro" loading="lazy">
+            <span class="image-open" aria-hidden="true">↗</span>
+          </button>
+          <div class="project-meta"><span>IE / 03</span><span class="category-tag">Movimiento</span></div>
+          <h4>Arcoíris líquido</h4>
+          <p>Líneas curvas y colores luminosos que se cruzan y parecen fluir.</p>
+        </article>
+        <article class="project-card" data-category="imagen-escrita">
+          <button class="artwork-button" data-full="assets/ie-cerebro-estelar.png" data-title="Cerebro estelar" aria-label="Ampliar Cerebro estelar">
+            <img src="assets/ie-cerebro-estelar.png" alt="Red densa de círculos y líneas azules, violetas y fucsias sobre negro" loading="lazy">
+            <span class="image-open" aria-hidden="true">↗</span>
+          </button>
+          <div class="project-meta"><span>IE / 04</span><span class="category-tag">Interactivo</span></div>
+          <h4>Cerebro estelar</h4>
+          <p>Una red de trazos, conexiones y acumulaciones que irradia desde el centro.</p>
+        </article>
+        <article class="project-card" data-category="imagen-escrita">
+          <button class="artwork-button" data-full="assets/ie-desborde-rosado.png" data-title="Desborde rosado" aria-label="Ampliar Desborde rosado">
+            <img src="assets/ie-desborde-rosado.png" alt="Corazones rosas translúcidos flotando sobre un fondo burdeos oscuro" loading="lazy">
+            <span class="image-open" aria-hidden="true">↗</span>
+          </button>
+          <div class="project-meta"><span>IE / 05</span><span class="category-tag">Formas</span></div>
+          <h4>Desborde rosado</h4>
+          <p>Corazones translúcidos, repetición y una expansión de tonos rosados.</p>
+        </article>
+        <article class="project-card" data-category="imagen-escrita">
+          <button class="artwork-button" data-full="assets/ie-expansion-organica.png" data-title="Expansión orgánica" aria-label="Ampliar Expansión orgánica">
+            <img src="assets/ie-expansion-organica.png" alt="Jardín digital de pétalos geométricos violetas, rosas y azules" loading="lazy">
+            <span class="image-open" aria-hidden="true">↗</span>
+          </button>
+          <div class="project-meta"><span>IE / 06</span><span class="category-tag">Orgánico</span></div>
+          <h4>Expansión orgánica</h4>
+          <p>Un jardín digital de formas geométricas que se despliega y crece.</p>
+        </article>
+      </div>
+
+      <div class="subsection-title illustration-heading">
+        <h3>Ilustraciones y obra</h3>
+        <p>Personajes, naturaleza y mundos imaginarios en color y tinta.</p>
+      </div>
+      <div class="project-grid illustration-grid">
+        <article class="project-card illustration-card" data-category="ilustracion">
+          <button class="artwork-button" data-full="assets/ilustracion-jardin-color.png" data-title="Jardín de color" aria-label="Ampliar Jardín de color"><img src="assets/ilustracion-jardin-color.png" alt="Ilustración de flores rojas y hojas verdes con trazos expresivos" loading="lazy"><span class="image-open" aria-hidden="true">↗</span></button>
+          <div class="project-meta"><span>OBRA / 01</span><span class="category-tag">Color</span></div><h4>Jardín de color</h4><p>Color, gesto y movimiento en un paisaje floral.</p>
+        </article>
+        <article class="project-card illustration-card" data-category="ilustracion">
+          <button class="artwork-button" data-full="assets/ilustracion-unicornio-leon-tinta.png" data-title="Eterno enfrentamiento — tinta" aria-label="Ampliar Eterno enfrentamiento en tinta"><img src="assets/ilustracion-unicornio-leon-tinta.png" alt="Dibujo en tinta de un unicornio y un león enfrentados" loading="lazy"><span class="image-open" aria-hidden="true">↗</span></button>
+          <div class="project-meta"><span>OBRA / 02</span><span class="category-tag">Tinta</span></div><h4>Eterno enfrentamiento</h4><p>Dos fuerzas fantásticas en tensión y movimiento.</p>
+        </article>
+        <article class="project-card illustration-card" data-category="ilustracion">
+          <button class="artwork-button" data-full="assets/ilustracion-fantasia-tinta.jpg" data-title="Fantasía en tinta" aria-label="Ampliar Fantasía en tinta"><img src="assets/ilustracion-fantasia-tinta.jpg" alt="Ilustración narrativa en tinta de una figura en un bosque junto a un león" loading="lazy"><span class="image-open" aria-hidden="true">↗</span></button>
+          <div class="project-meta"><span>OBRA / 03</span><span class="category-tag">Narrativa</span></div><h4>Fantasía en tinta</h4><p>Una escena fantástica construida con tramas y contrastes.</p>
+        </article>
+        <article class="project-card illustration-card" data-category="ilustracion">
+          <button class="artwork-button" data-full="assets/ilustracion-calavera-flores.jpg" data-title="Naturaleza fantástica" aria-label="Ampliar Naturaleza fantástica"><img src="assets/ilustracion-calavera-flores.jpg" alt="Calavera animal rodeada de hojas y flores rosas sobre fondo negro" loading="lazy"><span class="image-open" aria-hidden="true">↗</span></button>
+          <div class="project-meta"><span>OBRA / 04</span><span class="category-tag">Pintura</span></div><h4>Naturaleza fantástica</h4><p>Lo orgánico y lo inquietante se encuentran en una misma imagen.</p>
+        </article>
+        <article class="project-card illustration-card" data-category="ilustracion">
+          <button class="artwork-button" data-full="assets/ilustracion-conejo-fresas.jpg" data-title="Encuentro fantástico" aria-label="Ampliar Encuentro fantástico"><img src="assets/ilustracion-conejo-fresas.jpg" alt="Pintura de una mujer y un conejo blanco rodeados de fresas" loading="lazy"><span class="image-open" aria-hidden="true">↗</span></button>
+          <div class="project-meta"><span>OBRA / 05</span><span class="category-tag">Personajes</span></div><h4>Encuentro fantástico</h4><p>Personajes, color y un pequeño mundo de fantasía.</p>
+        </article>
+        <article class="project-card illustration-card" data-category="ilustracion">
+          <button class="artwork-button" data-full="assets/portada-unicornio-leon.jpg" data-title="Eterno enfrentamiento — color" aria-label="Ampliar Eterno enfrentamiento en color"><img src="assets/portada-unicornio-leon.jpg" alt="Pintura colorida de un unicornio y un león frente a frente" loading="lazy"><span class="image-open" aria-hidden="true">↗</span></button>
+          <div class="project-meta"><span>OBRA / 06</span><span class="category-tag">Color</span></div><h4>Eterno enfrentamiento</h4><p>Una confrontación fantástica entre el unicornio y el león.</p>
+        </article>
+        <article class="project-card illustration-card" data-category="ilustracion">
+          <button class="artwork-button" data-full="assets/ilustracion-bosque.jpg" data-title="Bosque en movimiento" aria-label="Ampliar Bosque en movimiento"><img src="assets/ilustracion-bosque.jpg" alt="Dibujo de un bosque con trazos intensos verdes, azules y amarillos" loading="lazy"><span class="image-open" aria-hidden="true">↗</span></button>
+          <div class="project-meta"><span>OBRA / 07</span><span class="category-tag">Paisaje</span></div><h4>Bosque en movimiento</h4><p>El paisaje como campo de color, gesto y energía.</p>
+        </article>
+      </div>
+    </section>
+
+
+
+    <section class="sales-section" id="ventas" aria-labelledby="sales-title">
+      <div class="sales-inner">
+        <div class="sales-heading"><p class="eyebrow">COLECCIÓN DISPONIBLE</p><h2 id="sales-title">Ventas</h2><p>Los Unicornios Existen · Poleras y tote bags</p></div>
+        <div class="sales-gallery">
+          <a class="sales-image" href="assets/poleras-unicornios.png" target="_blank" rel="noopener noreferrer" aria-label="Ver colección de poleras en tamaño grande"><img src="assets/poleras-unicornios.png" alt="Colección Los Unicornios Existen: poleras fucsia, rojas, blancas y negras, tallas S, M, L y XL" loading="lazy"><span>Ver colección de poleras ↗</span></a>
+          <a class="sales-image" href="assets/tote-bags-unicornios.png" target="_blank" rel="noopener noreferrer" aria-label="Ver colección de tote bags en tamaño grande"><img src="assets/tote-bags-unicornios.png" alt="Colección Los Unicornios Existen: tote bags beige y negras con ilustración de unicornio" loading="lazy"><span>Ver tote bags ↗</span></a>
+        </div>
+        <a class="button button-primary sales-contact" href="https://www.instagram.com/la.raya.todo/" target="_blank" rel="noopener noreferrer">Consultar por Instagram <span aria-hidden="true">⟶</span></a>
+      </div>
+    </section>
+
+    <section class="about-section section-frame" id="sobre-mi" aria-labelledby="about-title">
+      <div class="about-title-block"><h2 id="about-title">Sobre mí</h2><div class="about-doodle" aria-hidden="true">✳</div></div>
+      <div class="about-image"><img src="assets/ilustracion-jardin-color.png" alt="Detalle de una ilustración colorida de Natalia León" loading="lazy"></div>
+      <div class="about-copy">
+        <h3>Soy Natalia León, <em>La Raya Todo.</em></h3>
+        <p>Soy artista y estudiante de Diseño. Me interesa explorar los cruces entre el dibujo, la pintura, la imaginación y las herramientas digitales.</p>
+        <p>Este portafolio reúne una parte de mi trabajo visual y mis experimentos de Imagen Escrita: un espacio para probar, mezclar lenguajes y dejar que las ideas tomen su propio rumbo.</p>
+        <div class="tool-list" aria-label="Herramientas y áreas de trabajo"><span>p5.js</span><span>Ilustración</span><span>Color</span><span>Experimentación</span></div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contacto" aria-labelledby="contact-title">
+      <div class="contact-inner">
+        <div><p class="eyebrow">CONTÁCTAME</p><h2 id="contact-title">Contáctame</h2></div>
+        <div class="contact-links">
+          <a class="contact-link" href="mailto:Natalia.leon.o@mail.pucv.cl"><span class="contact-icon" aria-hidden="true">✉</span><span><small>Correo</small>Natalia.leon.o@mail.pucv.cl</span><span aria-hidden="true">↗</span></a>
+          <a class="contact-link" href="https://www.instagram.com/la.raya.todo/" target="_blank" rel="noopener noreferrer"><span class="contact-icon" aria-hidden="true">◎</span><span><small>Instagram</small>@la.raya.todo</span><span aria-hidden="true">↗</span></a>
+          <a class="contact-link" href="https://wiki.ead.pucv.cl/Imagen_Escrita_2026" target="_blank" rel="noopener noreferrer"><span class="contact-icon" aria-hidden="true">↗</span><span><small>Wiki · Imagen Escrita 2026</small>Documentación del proyecto</span><span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="contact-scribble scribble-left" aria-hidden="true">〰</div><div class="contact-scribble scribble-right" aria-hidden="true">✳</div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a href="#inicio" class="footer-brand">La Raya Todo ↗</a><span>Portafolio de Imagen Escrita y más · Natalia León · 2026</span><a href="https://github.com/natalialeon81-sys/naty-defin" target="_blank" rel="noopener noreferrer">Repositorio en GitHub</a></footer>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Vista ampliada de la obra"><button class="lightbox-close" aria-label="Cerrar imagen">×</button><img src="" alt=""><p></p></dialog>
+  <img class="lion-cursor" src="assets/leon-cursor.png" alt="" aria-hidden="true">
+  <script src="script.js"></script>
 </body>
-
 </html>

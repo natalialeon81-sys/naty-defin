@@ -1,0 +1,23 @@
+LA RAYA TODO — PORTAFOLIO
+
+Archivos principales:
+- index.html: estructura y contenido de la página.
+- style.css: diseño, colores, grillas y adaptación a móviles.
+- script.js: menú móvil, filtros de galería, ampliación de imágenes y cursor del león.
+- assets/: logo, portada, ilustraciones y ejercicios de Imagen Escrita.
+
+CÓMO USARLO EN TU PROYECTO
+1. Haz una copia de seguridad de tu carpeta actual.
+2. Copia index.html, style.css y script.js a la raíz de tu carpeta naty-defin.
+3. Copia la carpeta assets incluida aquí a la raíz del proyecto. Si ya existe una carpeta assets, combina los archivos sin borrar tus recursos anteriores.
+4. Abre index.html en Chrome para revisar el sitio.
+5. Cuando esté listo, sube los cambios al repositorio GitHub naty-defin para que GitHub Pages publique la actualización.
+
+PENDIENTE PARA UNA SIGUIENTE PASADA
+- Añadir las URL reales de p5.js para los seis ejercicios cuando estén disponibles.
+- Revisar o ajustar títulos de las ilustraciones si quieres usar sus nombres oficiales.
+
+La sección “Proceso creativo” se eliminó tal como pediste. Se mantienen Inicio/portada, Proyectos, Sobre mí y Contacto.
+
+
+ACTUALIZACIÓN: se añadió la sección Ventas con la colección Los Unicornios Existen. Se quitaron los puntos decorativos de los títulos, el texto “Detrás de la Raya” y la frase “Un universo entre la ilustración, el color, el código y lo inesperado”. El encabezado de contacto ahora dice “Contáctame”.
